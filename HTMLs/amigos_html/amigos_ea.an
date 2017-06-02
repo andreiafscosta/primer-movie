@@ -1,0 +1,147 @@
+
+{
+
+	"expanded:images/b1-01.svg":"nil",
+	"pref__general__AutoKeyframeProperties":"true",
+	"UseCDN":"false",
+	"expanded:images/gifload.gif":"nil",
+	"expanded:images/abe-01.svg":"nil",
+	"expanded:images/gif-load%20%281%29.gif":"nil",
+	"Preloader-Default Timeline_playhead_ms":"0",
+	"pref__general__FilterNonAnimatedElements":"false",
+	"expanded:images/b2-01.svg":"nil",
+	"symbol_Preloader":{
+		"dummyStageParentWidth":"400px",
+		"element_${_preloader4}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"animationEnabled":"false",
+			"timelineColor":"0xeedf79"},
+		"dummyStageParentHeight":"1850px",
+		"defaultStageParentWidth":"400px",
+		"defaultStageParentHeight":"200px",
+		"element_${_loader-bar}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"animationEnabled":"false",
+			"timelineColor":"0x91c767"},
+		"element_${_loader-bar2}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"timelineColor":"0x50bd82"}},
+	"CompZoomFactor":"100",
+	"StageZoomFactor":"65",
+	"expanded:images/gif-load.gif":"nil",
+	"stage-Default Timeline_mark_ms":"-1",
+	"nextElementColorIndex":"4",
+	"stage-Default Timeline_playhead_ms":"93",
+	"HTMLFileName":"amigos_ea.html",
+	"PubWebDir":"C:\\Users\\Andreia\\Dropbox\\Public\\MULTIPLOS\\HTMLs\\amigos_html\\",
+	"expanded:images/b3-01.svg":"nil",
+	"usedBOM":"false",
+	"TransitionIdCounter":"86",
+	"expanded:images/bra%C3%A7o2-01.svg":"nil",
+	"expanded:images/aaron-01.svg":"nil",
+	"expanded:images/bra%C3%A7o3-01.svg":"nil",
+	"expanded:images/preloader4.gif":"nil",
+	"pixelsPerMs":"0.3486784401",
+	"expanded:images/b4-01.svg":"nil",
+	"PreloaderType":"Polite",
+	"pref__general__AutoKeyframePropertiesArmed":"true",
+	"expanded:images/loader-bar.gif":"nil",
+	"symbol_stage":{
+		"dummyStageParentWidth":"400px",
+		"element_${_b1-01}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"timelineColor":"0xceaef4",
+			"animationEnabled":"true",
+			"invisible":"false"},
+		"dummyStageParentHeight":"200px",
+		"element_${_abe-01}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"invisible":"false",
+			"timelineColor":"0x91c767"},
+		"element_${_brao4-01}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"animationEnabled":"true",
+			"timelineColor":"0x50bd82"},
+		"element_${_brao2-01}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"timelineColor":"0x00a096",
+			"animationEnabled":"true",
+			"invisible":"false"},
+		"element_${_Rectangle}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"timelineColor":"0xdb619d"},
+		"element_${_brao1-01}":{
+			"timelineColor2":"0x326a96",
+			"invisible":"false",
+			"timelineColor":"0x2f73ad",
+			"animationEnabled":"true",
+			"timelineColor3":"0x385063"},
+		"element_${_b4-01}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"animationEnabled":"true",
+			"timelineColor":"0x00a9fa"},
+		"element_${_aaron-01}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"timelineColor":"0xfb657a"},
+		"element_${_RectangleCopy}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
+			"timelineColor":"0xffd46d"},
+		"defaultStageParentHeight":"200px",
+		"codeTreeElementPopupFilter":"",
+		"element_${_Stage}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"animationEnabled":"true",
+			"timelineColor":"0xeedf79"},
+		"defaultStageParentWidth":"400px",
+		"element_${_b2-01}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"timelineColor":"0x63599f",
+			"animationEnabled":"true",
+			"invisible":"false"},
+		"element_${_b3-01}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"timelineColor":"0x008dc8",
+			"animationEnabled":"true",
+			"invisible":"false"},
+		"element_${_brao3-01}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"animationEnabled":"true",
+			"timelineColor":"0x00bda4"}},
+	"PreloadAudio":"auto",
+	"expanded:images/bra%C3%A7o4-01.svg":"nil",
+	"viewStartY":"0",
+	"expanded:images/ajax-loader.gif":"nil",
+	"expanded:images/720.GIF":"nil",
+	"expanded:images/bra%C3%A7o1-01.svg":"nil",
+	"expanded:images/loader-bar2.gif":"nil",
+	"ModelData":"{\
+\"stage\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"Preloader\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"Down-level\": {\
+   \"timelines\": {\
+\
+   }}\
+}"}

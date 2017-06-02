@@ -1,0 +1,294 @@
+@import url(https://fonts.googleapis.com/css?family=Passion+One:700,400);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+
+
+@font-face {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Passion One', cursive;
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	background-color: #191919;
+}
+
+/*-----------------FRAME----------------*/
+#top {
+top: 0;
+}
+#right {
+right: 0;
+}
+#left{
+left: 0;
+}
+#bottom {
+bottom: 0;
+}
+#top, #bottom {
+left: 0;
+right: 0;
+height: 2vh;
+}
+#left, #right {
+top: 0;
+bottom: 0;
+width: 2vh;
+}
+#top, #bottom, #left, #right {
+background: #333333;
+position: fixed;
+}
+/*---------------FIM-FRAME----------------*/
+
+
+#main {
+position: relative;
+margin-left: auto;
+margin-right: auto;
+width: 20vw;
+height: 100vh;
+background-color: none;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-flow: row wrap; /* Safari 6.1+ */
+    -webkit-align-content: center; /* Safari 7.0+ */
+}
+
+#main h1 {
+	display: block;
+
+	width: 100vw;
+    padding: 40px 0 8px 0;
+}
+
+#main #logo {
+	display: block;
+	width: 100vw;
+    
+}
+/*-----------------LOGO----------------*/
+#logo img{
+	position: relative;
+    content: url("data/logo-02.png");
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10vw;
+
+
+
+	transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+}
+
+#logo img:hover {
+	content: url("data/gif_logo2.gif");
+	cursor: pointer;
+	
+	transform: scale(0.95);
+	-webkit-transform: scale(0.95);
+
+	transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+}
+/*--------------FIM-LOGO------------------*/
+
+
+
+
+
+/*---------------INFO-------------------*/
+#info{
+	position: fixed;
+}
+
+#info.img {
+	content: url("data/info-01.svg");
+	width: 2.5em;
+	height: 2.5em;
+	opacity: 0.3;
+	bottom: 2em;
+	right: 2em;
+
+	transition: all 0.4s ease;
+   -webkit-transition: all 0.4s ease;
+}
+
+
+#info:hover {
+	 content: url("data/info2-01.svg");
+	opacity: 0.8;
+	transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+
+	transition: all 0.4s ease;
+   -webkit-transition: all 0.4s ease;
+}
+
+
+
+a {
+	transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+}
+
+/*-------------FIM-INFO-------------------*/
+
+
+h1 {
+	position: relative;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	text-align: center;
+}
+h2 {
+	position: relative;
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	text-align: center;
+
+}
+/*--------------TEXT-STYLES-------------------*/
+.t1 {
+	font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 3.3em;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	margin-bottom: 0em;
+	text-align: center;
+}
+
+.t2 {
+	font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	font-size: 1.0em;
+	color: #808285;
+	text-transform: uppercase;
+	margin-bottom: 2.8em;
+	text-align: center;
+}
+.t3{
+	font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	font-size: 1.4em;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-align: center;
+}
+/*------------FIM-TEXT-STYLES------------------*/
+
+/*------------MEDIA-QUERIES-------------------*/
+
+@media screen and (max-width: 500px) {
+	#main {
+	width: 60vw;
+	}
+	#logo img {
+		 width: 25vw;
+
+	}
+	#info.img {
+		bottom: 1.8em;
+		right: 1.8em;
+	}
+	#main h1 {
+	    padding: 20px 0 10px 0;
+	}
+	.t1 {
+		font-size: 2.3em;
+	}
+
+	.t2 {
+		font-size: 0.9em;
+	}
+
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px){
+	#main {
+	width: 60vw;
+	}
+	#logo img {
+		 width: 12vw;
+
+	}	
+	#main h1 {
+	    padding: 20px 0 4px 0;
+	}
+	#info.img {
+		width: 2.2em;
+		height: 2.2em;
+		bottom: 1.8em;
+		right: 1.8em;
+	}
+
+	.t1 {
+		font-size: 2.1em;
+	}
+
+	.t2 {
+		font-size: 0.8em;
+	}
+
+}
+
+/*
+@media screen and (min-width: 611px) and (max-width: 1080px){
+	#main {
+	width: 22vw;
+	}
+	#logo img {
+		 width: 12vw;
+
+	}
+	#info.img {
+		width: 2.3em;
+		height: 2.3em;
+		bottom: 1.5em;
+		right: 1.5em;
+	}
+	#main h1 {
+	    padding: 10px 0 8px 0;
+	}
+
+	.t1 {
+		font-size: 2.9em;
+	}
+
+	.t2 {
+		font-size: 1.0em;
+	}
+
+
+}*/

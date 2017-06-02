@@ -1,0 +1,23 @@
+[0324/054136:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0324/054136:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0324/054143:INFO:CONSOLE(24)] "Uncaught TypeError: Object #<Object> has no method 'callbackTunnelAsync'", source: http://download.macromedia.com/pub/edgetools/animate/3/currentversion.js?t=268 (24)
+[0324/054146:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0324/054146:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0324/054623:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0324/054623:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0324/054900:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0324/054900:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0324/055354:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (about:blank:0:47), <anonymous>:1:7)
+    at about:blank:0:47", source:  (1)
+[0324/060452:INFO:CONSOLE(0)] "ReferenceError: EdgeDOM is not defined
+    at about:blank:0:7", source: about:blank (0)
+[0324/060551:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (about:blank:0:47), <anonymous>:1:7)
+    at about:blank:0:47", source:  (1)
+[0324/060631:INFO:CONSOLE(0)] "ReferenceError: EdgeDOM is not defined
+    at about:blank:0:7", source: about:blank (0)
+[0324/060800:INFO:CONSOLE(0)] "ReferenceError: EdgeDOM is not defined
+    at about:blank:0:7", source: about:blank (0)
+[0324/060925:INFO:CONSOLE(0)] "ReferenceError: EdgeDOM is not defined
+    at about:blank:0:7", source: about:blank (0)

@@ -1,0 +1,676 @@
+@import url(https://fonts.googleapis.com/css?family=Passion+One:700,400);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+
+
+@font-face {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Passion One', cursive;
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body{
+	    height:100%;
+}
+body {
+	background-color: #191919;
+	overflow-x: hidden;
+}
+
+
+#page {
+	position: relative; /* Set the position property so z-index will apply */
+	z-index: 20; /* Make sure this is higher than #menu */
+
+	background: none;
+	height: auto;
+		text-align: center;
+}
+header {
+	background-color: #fff;
+	text-align: center;
+	height: 100vh;
+
+	display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+
+    display: -webkit-flex; 
+    -webkit-flex-flow: row wrap; 
+    -webkit-align-content: center;
+}
+
+.center {
+	width: 50vw;
+	margin-right: auto;
+	margin-left: auto;
+}
+.center2 {
+	width: 62vw;
+	margin-right: auto;
+	margin-left: auto;
+}
+.blank {
+	position: relative;
+	width: 10vw;
+	height: 15vh;
+	margin-top: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: none;
+	overflow: hidden;
+}
+
+header h1{
+	padding: 20vh 0 0 0;
+}
+header h2{
+	padding: 6vh 0 0 0;
+}
+header h3{
+	padding: 2vh 0 0 0;
+}
+header h4{
+	padding: 6vh 0 6vh 0;
+}
+
+#page p {
+	margin: 0;
+	padding: 2vh 16vw;
+}
+#toggle-menu {
+	position: absolute;
+	top: 6vh;
+	right: 6vh;
+}
+
+#toggle-menu.img {
+	content: url("data/capitulos-01.svg");
+	width: 25px;
+	height: 25px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	transition: all 0.4s ease;
+   -webkit-transition: all 0.4s ease;
+}
+
+
+#toggle-menu:hover {
+	opacity: 0.5;
+	transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+
+	transition: all 0.4s ease;
+   -webkit-transition: all 0.4s ease;
+}
+
+
+
+a {
+	transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+}
+
+#menu {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	width: 190px;
+	padding: 15px 25px;
+	margin: 0;
+
+	list-style: none;
+	background: #191919;
+	z-index: 10; /* Make sure the z-index is lower than the #page */
+}
+
+#menu a {
+	display: block;
+	color: #fff;
+	padding: 15px 0;
+	border-bottom: 1px solid rgba( 255, 255, 255, 0.05 );
+}
+
+
+
+
+/*-----------------FRAME----------------*/
+#top {
+top: 0;
+}
+#right {
+right: 0;
+}
+#left{
+left: 0;
+}
+#bottom {
+bottom: 0;
+}
+#top, #bottom {
+left: 0;
+right: 0;
+height: 2vh;
+}
+#left, #right {
+top: 0;
+bottom: 0;
+width: 2vh;
+}
+#top, #bottom, #left, #right {
+background: #808285;
+z-index: 1000;
+position: fixed;
+}
+/*---------------FIM-FRAME----------------*/
+/*---------------DOWN-ICON-------------------*/
+#down {
+	position: relative;
+		display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1.5em 0;
+
+}
+
+#down.img {
+	content: url("data/down2-01.svg");
+	width: 40px;
+	height: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+
+
+	transition: all 0.4s ease;
+   -webkit-transition: all 0.4s ease;
+}
+
+
+/*-------------FIM-DOWN-ICON-------------------*/
+
+/*-----------OPEN-BOXES-----------------*/
+.box-container{
+	padding: 0 0 10vh 0;
+}
+
+.box-container{
+	width: 85%;
+	margin: 0 auto;
+text-align: center;
+margin-top: 0.1vh;
+margin-bottom: 0.1vh;
+	
+}
+.box-container label{
+	padding: 10px 10px;
+	position: relative;
+	display: block;
+	height: auto;
+	cursor: pointer;
+	
+	background: transparent url(data/dots-01.svg) no-repeat center center;	
+		transition: all 0.1s ease;
+   		-webkit-transition: all 0.14s ease;
+}
+
+.box-container label:hover{
+	background: transparent url(data/dots-01.svg) no-repeat center center;	
+	transition: all 0.1s ease;
+   -webkit-transition: all 0.1s ease;
+}
+
+.box-container input:checked + label,
+.box-container input:checked + label:hover{
+	background: transparent url(data/cruz-01.svg) no-repeat center center;	
+
+}
+
+.box-container label:hover:after,
+.box-container input:checked + label:hover:after{
+	content: '';
+	position: absolute;
+	
+}
+
+.box-container input{
+	display: none;
+}
+
+.box-container article{
+background-color: none;
+	overflow: hidden;
+	height: 0px;
+	position: relative;
+	z-index: 10;
+	transition: 
+		height 0.2s ease-in-out, 
+		box-shadow 0.4s linear;
+
+	-webkit-transition: 
+		height 0.2s ease-in-out, 
+		box-shadow 0.4s linear;
+}
+
+.box-container input:checked ~ article{
+	transition: 
+		height 0.4s ease-in-out, 
+		box-shadow 0.1s linear;
+
+	-webkit-transition:
+			height 0.5s ease-in-out, 
+			box-shadow 0.1s linear;
+
+}
+.box-container article p{
+	padding: 20px;
+
+}
+.box-container input:checked ~ article.box-small{
+	height: 3em;
+}
+.box-container input:checked ~ article.box-medium{
+	height: 7.1em;
+}
+.box-container input:checked ~ article.box-large{
+	height: 19em;
+}
+/*------------FIM-OPEN-BOXES-----------------*/
+
+/* unvisited link */
+a:link {
+  text-decoration: none;
+    color: #fff;
+}
+
+/* visited link */
+a:visited {
+  text-decoration: none;
+    color: #fff;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: none;
+    color: #787878;;
+}
+
+/* selected link */
+a:active {
+  text-decoration: none;
+    color: #fff;
+}
+
+span {
+	font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	font-size: 1em;
+	color: #808285;
+	text-transform: uppercase;
+	text-align: leftr;
+
+}
+/*------------RESIZE-IFRAME-----------------*/
+.resize-iframe {
+	position:relative;
+	padding-bottom:75.00%;
+	height:0;
+	overflow:hidden;
+
+}
+
+.resize-iframe iframe {
+	position:absolute;
+	top:20vh;
+	left:0;
+	width:100%;
+	height:100%;
+		transform: scale(1.8);
+		-webkit-transform: scale(1.8);
+}
+
+
+/*----------FIM-RESIZE-IFRAME-----------------*/
+
+
+/* Animations */
+
+#page, #menu {
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
+}
+
+/* Hide the menu unless it's animating or visible */
+.animating #menu, .menu-visible #menu {
+	display: block;
+}
+
+/***
+* If the animating class is present then apply
+* the CSS transition to #page over 250ms.
+*/
+.animating #page {
+	transition: transform .25s ease-in-out;
+	-webkit-transition: -webkit-transform .25s ease-in-out;
+}
+
+/***
+* If the left class is present then transform
+* the #page element 240px to the left.
+*/	
+.animating.left #page {
+	transform: translate3d( -240px, 0, 0 );
+	-webkit-transform: translate3d( -240px, 0, 0 );
+}
+
+/***
+* If the right class is present then transform
+* the #page element 240px to the right.
+*/
+.animating.right #page {
+	transform: translate3d( 240px, 0, 0 );
+	-webkit-transform: translate3d( 240px, 0, 0 );
+}
+
+/***
+* If the menu-visible class is present then
+* shift the #page 240px from the right edge
+* via position: absolute to keep it in the 
+* open position. When .animating, .left and
+* .right classes are not present the CSS
+* transform does not apply to #page.
+*/
+.menu-visible #page {
+	right: 240px;
+}
+
+
+/*--------------TEXT-STYLES-------------------*/
+.text1 {
+	font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	font-size: 1.3em;
+	color: #808285;
+	text-transform: uppercase;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	text-align: center;
+}
+
+.text2 {
+	font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	font-size: 5.4em;
+	line-height: 1em;
+	color: #404040;
+	text-transform: uppercase;
+	margin-bottom: 0em;
+	text-align: center;
+}
+
+.text3 {
+	font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	font-size: 1.0em;
+	color: #808285;
+	text-transform: none;
+	margin-bottom: 0em;
+	text-align: center;
+}
+.text4 {
+	font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	font-size: 1.6em;
+	color: #404040;
+	text-transform: uppercase;
+	text-align: center;
+}
+.text5 {
+	font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	font-size: 1em;
+	color: #404040;
+	text-transform: uppercase;
+	text-align: leftr;
+}
+.t3 {
+	font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	font-size: 1.6em;
+	color: #fff;
+	text-decoration: none;
+
+	text-align: center;
+}
+/*------------FIM-TEXT-STYLES------------------*/
+
+/*------------MEDIA-QUERIES-------------------*/
+
+/* Hide the #toggle-menu element on larger screens 
+#toggle-menu {
+  display: none;
+}
+*/
+ 
+@media screen and (max-width: 500px) {
+	.center {
+		width: 70vw;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.center2 {
+		width: 75vw;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	header h1{
+		padding: 20vh 0 0 0;
+	}
+	header h2{
+		padding: 6vh 0 0 0;
+	}
+	header h3{
+		padding: 2vh 0 0 0;
+	}
+	header h4{
+		padding: 6vh 0 2vh 0;
+	}
+	#page p {
+		margin: 0;
+		padding: 2vh 0;
+	}
+	.text1 {
+	font-weight: 700;
+	font-size: 1.3em;
+	}
+	.text2 {
+		font-size: 3.2em;
+	}
+	.t3 {
+		font-size: 1.3em;
+	}
+
+
+	.resize-iframe {
+		position:relative;
+		padding-bottom:82.00%;
+		height:0;
+		overflow:hidden;
+
+	}
+
+	.resize-iframe iframe {
+		position:absolute;
+		top:18vh;
+		left:0;
+		width:100%;
+		height:100%;
+			transform: scale(2.4);
+			-webkit-transform: scale(2.4);
+	}
+
+}
+
+
+@media screen and (min-width: 501px) and (max-width: 800px){
+	.center {
+		width: 40vw;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.center2 {
+		width: 90vw;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	header h1{
+		padding: 15vh 0 0 0;
+	}
+	header h2{
+		padding: 6vh 0 0 0;
+	}
+	header h3{
+		padding: 2vh 0 0 0;
+	}
+	header h4{
+		padding: 6vh 0 2vh 0;
+	}
+	#page p {
+		margin: 0;
+		padding: 2vh 12vw;
+	}
+	.text1 {
+	font-weight: 700;
+	font-size: 1.1em;
+	}
+	.text2 {
+		font-size: 3.4em;
+	}
+	.text4 {
+		font-size: 1.0em;
+	}
+	.t3 {
+		font-size: 1.3em;
+	}
+
+	#down, #down.img{
+		display: none;
+	}
+
+	.resize-iframe {
+		position:relative;
+		padding-bottom:60.00%;
+		height:0;
+		overflow:hidden;
+
+	}
+
+	.resize-iframe iframe {
+		position:absolute;
+		top:5vh;
+		left:0;
+		width:100%;
+		height:100%;
+			transform: scale(1.5);
+			-webkit-transform: scale(1.5);
+	}
+
+
+	.resize-iframe2 {
+		position:relative;
+		padding-bottom:69.00%;
+		height:0;
+		overflow:hidden;
+
+	}
+	.resize-iframe2 iframe {
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+			transform: scale(1.1);
+			-webkit-transform: scale(1.1);
+	}
+
+	.resize-iframe3 {
+		position:relative;
+		padding-bottom:65.00%;
+		height:0;
+		overflow:hidden;
+
+	}
+	.resize-iframe3 iframe {
+		position:absolute;
+		top:36vh;
+		left:0;
+		width:100%;
+		height:100%;
+			transform: scale(1.6);
+			-webkit-transform: scale(1.6);
+	}
+
+	.resize-iframe4 {
+	position:relative;
+	padding-bottom:60.00%;
+	height:0;
+	overflow:hidden;
+
+	}
+	.resize-iframe4 iframe {
+		position:absolute;
+		top:20vh;
+		left:0;
+		width:100%;
+		height:100%;
+		*transform: scale(1.3);
+		-webkit-transform: scale(1.3);
+	}
+
+	.resize-iframe5 {
+	position:relative;
+	padding-bottom:52.00%;
+	height:0;
+	overflow:hidden;
+
+	}
+	.resize-iframe5 iframe {
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		*transform: scale(1.05);
+		-webkit-transform: scale(1.05);
+	}
+
+}

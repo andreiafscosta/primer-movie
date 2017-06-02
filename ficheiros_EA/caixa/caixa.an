@@ -1,0 +1,136 @@
+
+{
+
+	"pref__general__AutoKeyframeProperties":"false",
+	"UseCDN":"false",
+	"expanded:images/gifload.gif":"nil",
+	"expanded:images/abe-01.svg":"nil",
+	"expanded:images/aaron-b2-01.svg":"nil",
+	"expanded:images/gif-load%20%281%29.gif":"nil",
+	"Preloader-Default Timeline_playhead_ms":"0",
+	"pref__general__FilterNonAnimatedElements":"false",
+	"expanded:images/box-01.svg":"nil",
+	"symbol_Preloader":{
+		"dummyStageParentWidth":"400px",
+		"element_${_preloader4}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"animationEnabled":"false",
+			"timelineColor":"0xeedf79"},
+		"dummyStageParentHeight":"800px",
+		"defaultStageParentWidth":"400px",
+		"defaultStageParentHeight":"200px"},
+	"expanded:images/dentrobox-01.svg":"nil",
+	"StageZoomFactor":"56",
+	"pixelsPerMs":"0.51874849202",
+	"nextElementColorIndex":"2",
+	"stage-Default Timeline_playhead_ms":"432",
+	"expanded:images/aaron-b1-01.svg":"nil",
+	"expanded:images/abe-b1-01.svg":"nil",
+	"HTMLFileName":"caixa.html",
+	"PubWebDir":"C:\\Users\\Andreia\\Dropbox\\Public\\PRIMER\\HTMLs\\caixa_html\\",
+	"ModelData":"{\
+\"stage\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"Preloader\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"Down-level\": {\
+   \"timelines\": {\
+\
+   }}\
+}",
+	"expanded:images/abe-b2-01.svg":"nil",
+	"expanded:images/mesa-01.svg":"nil",
+	"expanded:images/preloader4.gif":"nil",
+	"pref__general__AutoKeyframePropertiesArmed":"false",
+	"symbol_stage":{
+		"dummyStageParentWidth":"400px",
+		"dummyStageParentHeight":"200px",
+		"element_${_abe-01}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"timelineColor":"0x008dc8"},
+		"element_${_box-01}":{
+			"timelineColor2":"0x1aa38f",
+			"invisible":"false",
+			"timelineColor":"0x00bda4",
+			"animationEnabled":"true",
+			"timelineColor3":"0x2a6a61"},
+		"element_${_abe-b3-01}":{
+			"timelineColor2":"0x168c84",
+			"invisible":"false",
+			"timelineColor":"0x00a096",
+			"animationEnabled":"true",
+			"timelineColor3":"0x2a605c"},
+		"element_${_Rectangle}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
+			"timelineColor":"0xffd46d",
+			"locked":"true",
+			"animationEnabled":"true",
+			"invisible":"true"},
+		"element_${_abe-b2-01}":{
+			"timelineColor2":"0x326a96",
+			"invisible":"false",
+			"timelineColor":"0x2f73ad",
+			"animationEnabled":"true",
+			"timelineColor3":"0x385063"},
+		"element_${_aaron-b1-01}":{
+			"timelineColor2":"0xb099ce",
+			"invisible":"false",
+			"timelineColor":"0xceaef4",
+			"animationEnabled":"true",
+			"timelineColor3":"0x70657c"},
+		"element_${_mesa-01}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"timelineColor":"0x91c767"},
+		"element_${_aaron-01}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"timelineColor":"0xfb657a"},
+		"element_${_abe-b1-01}":{
+			"timelineColor2":"0x1095d2",
+			"invisible":"false",
+			"timelineColor":"0x00a9fa",
+			"animationEnabled":"true",
+			"timelineColor3":"0x29647e"},
+		"defaultStageParentHeight":"200px",
+		"codeTreeElementPopupFilter":"",
+		"element_${_Stage}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"timelineColor":"0xeedf79"},
+		"defaultStageParentWidth":"400px",
+		"element_${_dentrobox-01}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"invisible":"false",
+			"timelineColor":"0x50bd82"},
+		"element_${_aaron-b3-01}":{
+			"timelineColor2":"0xba5b89",
+			"invisible":"false",
+			"timelineColor":"0xdb619d",
+			"animationEnabled":"true",
+			"timelineColor3":"0x734a5f"},
+		"element_${_aaron-b2-01}":{
+			"timelineColor2":"0x5a558a",
+			"invisible":"false",
+			"timelineColor":"0x63599f",
+			"animationEnabled":"true",
+			"timelineColor3":"0x4a485e"}},
+	"PreloadAudio":"auto",
+	"expanded:images/aaron-01.svg":"nil",
+	"viewStartY":"0",
+	"usedBOM":"false",
+	"expanded:images/abe-b3-01.svg":"nil",
+	"PreloaderType":"Polite",
+	"CompZoomFactor":"100",
+	"TransitionIdCounter":"72",
+	"expanded:images/aaron-b3-01.svg":"nil"}

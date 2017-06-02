@@ -1,0 +1,399 @@
+@import url(https://fonts.googleapis.com/css?family=Passion+One:700,400);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+
+
+@font-face {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Passion One', cursive;
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+	background-color: #F2F2F2;
+}
+
+/*-----------------FRAME----------------*/
+#top {
+top: 0;
+}
+#right {
+right: 0;
+}
+#left{
+left: 0;
+}
+#bottom {
+bottom: 0;
+}
+#top, #bottom {
+left: 0;
+right: 0;
+height: 2vh;
+}
+#left, #right {
+top: 0;
+bottom: 0;
+width: 2vh;
+}
+#top, #bottom, #left, #right {
+background: #808285;
+z-index: 1000;
+position: fixed;
+}
+/*---------------FIM-FRAME----------------*/
+
+/*----------COLUNA-----------------*/
+#coluna {
+	position: relative;
+	width: 25vw;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+	background-color: none;
+	overflow: hidden;
+}
+/*------------FIM-COLUNA-----------------*/
+
+
+/*---------------CLOSE-------------------*/
+#close {
+	position: relative;
+	padding: 60px 0;
+}
+
+#close.img {
+	content: url("data/close1grey-01.svg");
+	width: 40px;
+	height: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+
+
+	transition: all 0.4s ease;
+   -webkit-transition: all 0.4s ease;
+}
+
+
+#close:hover {
+	content: url("data/close2grey-01.svg");
+	opacity: 0.5;
+	transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+
+	transition: all 0.4s ease;
+   -webkit-transition: all 0.4s ease;
+}
+
+
+
+a {
+	transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+}
+
+/*-------------FIM-CLOSE-------------------*/
+
+
+/*--------------SWIPE-ANIM-------------------*/
+
+
+#frame-anim img {
+  position: absolute;
+content: url("data/anim-03.svg");
+left:0; right:0;
+width: 55%;
+display: block;
+ margin:0 auto;
+  z-index: 10;
+}
+
+#swipe img {
+	content: url("data/swipe-03.svg");
+	display: block;
+margin-right: auto;
+margin-left: auto;
+width: 55%;
+    position: relative;
+      z-index: 11;
+}
+
+/*------------FIM-SWIPE-ANIM-----------------*/
+
+
+
+.animatedParent {
+	position: relative;
+	width: 100%;
+	display: block;
+	float: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: none;
+}
+.animated{
+	position: relative;
+	display: block;
+	float: center;
+	background-color: none;
+}
+
+/*--------------FOOTER-------------------*/
+footer {
+	position: relative;
+	width: 100vw;
+	height: 20vh;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	background-color: none;
+	overflow: hidden;
+}
+/*------------FIM-FOOTER-----------------*/
+
+
+
+
+
+/*-----------OPEN-BOXES-----------------*/
+article{
+	border-radius: 8px;
+}
+.box-container{
+	width: 100%;
+	margin: 0 auto;
+text-align: center;;
+	
+}
+.box-container label{
+	padding: 15px 20px;
+	position: relative;
+	display: block;
+	height: auto;
+	cursor: pointer;
+	
+	background: transparent url(data/dots-01.svg) no-repeat center center;	
+		transition: all 0.1s ease;
+   		-webkit-transition: all 0.14s ease;
+}
+
+.box-container label:hover{
+	background: transparent url(data/dots-01.svg) no-repeat center center;	
+	transition: all 0.1s ease;
+   -webkit-transition: all 0.1s ease;
+}
+
+.box-container input:checked + label,
+.box-container input:checked + label:hover{
+	background: transparent url(data/cruz-01.svg) no-repeat center center;	
+
+}
+
+.box-container label:hover:after,
+.box-container input:checked + label:hover:after{
+	content: '';
+	position: absolute;
+	
+}
+
+.box-container input{
+	display: none;
+}
+
+.box-container article{
+background-color: none;
+	overflow: hidden;
+	height: 0px;
+	position: relative;
+	z-index: 10;
+	transition: 
+		height 0.2s ease-in-out, 
+		box-shadow 0.4s linear;
+
+	-webkit-transition: 
+		height 0.2s ease-in-out, 
+		box-shadow 0.4s linear;
+}
+
+.box-container input:checked ~ article{
+	transition: 
+		height 0.4s ease-in-out, 
+		box-shadow 0.1s linear;
+
+	-webkit-transition:
+			height 0.5s ease-in-out, 
+			box-shadow 0.1s linear;
+
+}
+.box-container article p{
+	padding: 20px;
+
+}
+.box-container input:checked ~ article.box-small{
+	height: 3em;
+}
+.box-container input:checked ~ article.box-medium{
+	height: 7.1em;
+}
+.box-container input:checked ~ article.box-large{
+	height: 19em;
+}
+/*------------FIM-OPEN-BOXES-----------------*/
+
+
+
+/*---------------BUTTON-------------------*/
+#button1 {
+
+	position: relative;
+	display: block;
+	width: 40%;
+	bottom: 0;
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.roundbox {
+	border: 4px solid #A7A9AC;
+    padding: 4px 6px; 
+    border-radius: 25px;
+    top: 3em;
+
+}
+#button1:hover {
+	transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+
+	transition: all 0.4s ease;
+   -webkit-transition: all 0.4s ease;
+}
+
+
+.no_underline{
+	text-decoration: none;
+}
+/*-------------FIM-BUTTON-------------------*/
+
+
+/*--------------TEXT-STYLES-------------------*/
+.text1 {
+	font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	font-size: 1.3em;
+	color: #808285;
+	text-transform: uppercase;
+	margin-top: 2.2em;
+	margin-bottom: 0em;
+	text-align: center;
+}
+
+.text2 {
+	font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	font-size: 2.6em;
+	color: #404040;
+	text-transform: uppercase;
+	margin-bottom: 0em;
+	text-align: center;
+}
+
+.text3 {
+	font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	font-size: 1.0em;
+	color: #404040;
+	text-transform: none;
+	margin-bottom: 0em;
+	text-align: center;
+}
+.t3 {
+	font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	font-size: 1.1em;
+	color: #A7A9AC;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+}
+/*------------FIM-TEXT-STYLES------------------*/
+
+
+/* unvisited link */
+a:link {
+
+    color: #404040;
+}
+
+/* visited link */
+a:visited {
+
+    color: #404040;
+}
+
+/* mouse over link */
+a:hover {
+
+    color: #808285;
+}
+
+/* selected link */
+a:active {
+
+    color: #404040;
+}
+
+
+/*------------MEDIA-QUERIES-------------------*/
+
+@media screen and (max-width: 500px) {
+#coluna {
+	width: 75vw;
+}
+
+
+}
+
+
+@media screen and (min-width: 501px) and (max-width: 800px){
+#coluna {
+	width: 60vw;
+}
+}
+
+
+/*@media screen and (min-width: 601px) and (max-width: 800px){
+#coluna {
+	width: 45vw;
+}
+
+.text1 {
+	margin-top: 2.8em;
+	margin-bottom: 0em;
+}
+}*/
