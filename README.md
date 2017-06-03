@@ -1,4 +1,4 @@
-# primer-movie, university project 2014
+# Primer movie, university project 2014
 
 School project, 3rd year 1st semester
 Webdesign-I project
