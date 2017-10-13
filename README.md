@@ -6,5 +6,7 @@ Faculty of Fine-Arts University of Lisbon 2014
  
 (First) website (ever!) inspired in the movie Primer (2004).
 I used the Adobe Illustrator and Edge Animate programs to create the illustrations, and later added simple mouse swipe interactions to the website to play them (they are kinda hard to get right).
+
+Prepare yourself, you will have the worse user experience ever!
  
 See the movie animations gifs on https://www.behance.net/gallery/28802515/Primer-Movie-Animations
